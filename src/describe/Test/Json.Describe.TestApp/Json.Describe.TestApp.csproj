@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <Reference Include="JsonDiffer">
-      <HintPath>..\..\packages\JsonDiffer.Netstandard\JsonDiffer.dll</HintPath>
+      <HintPath>..\..\custom-packages\JsonDiffer.Netstandard\JsonDiffer.dll</HintPath>
     </Reference>
   </ItemGroup>
 
