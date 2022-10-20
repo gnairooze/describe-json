@@ -1,0 +1,9 @@
+﻿{
+  "name": "John",
+  "cars": {
+    "car1": "Ford",
+    "car2": "BMW",
+    "car3": "Audi",
+    "car4": "Jaguar"
+  }
+}

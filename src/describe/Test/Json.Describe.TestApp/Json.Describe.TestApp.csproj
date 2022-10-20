@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Json.Describe.Contracts\Json.Describe.Contracts.csproj" />
+    <ProjectReference Include="..\..\Json.Describe\Json.Describe.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="JsonDiffer">
+      <HintPath>..\..\packages\JsonDiffer.Netstandard\JsonDiffer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,64 @@
+{
+  "changed": {
+    "destination_addresses": [
+      [
+        "Napa County, CA, USA",
+        "Washington, DC, USA"
+      ],
+      [
+        "Napa County2, CA, USA",
+        "Napa County, CA, USA"
+      ],
+      [
+        "Napa County3, CA, USA",
+        "Orange County, CA, USA"
+      ]
+    ],
+    "rows": [
+      {
+        "changed": {
+          "elements": [
+            {
+              "changed": {
+                "distance": {
+                  "removed": {
+                    "value": 36546.8
+                  }
+                },
+                "status": [
+                  "OK",
+                  "NOK"
+                ]
+              },
+              "removed": {
+                "duration": {
+                  "text": "3 hours 54 mins",
+                  "value": 14064
+                }
+              }
+            },
+            {
+              "changed": {
+                "distance": {
+                  "removed": {
+                    "text": "94.6 mi"
+                  },
+                  "changed": {
+                    "value": [
+                      152193,
+                      1521.93
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "status": [
+            "OK",
+            "NOK"
+          ]
+        }
+      }
+    ]
+  }
+}
