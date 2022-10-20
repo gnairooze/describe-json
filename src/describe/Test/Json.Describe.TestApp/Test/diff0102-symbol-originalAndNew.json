@@ -1,17 +1,17 @@
 {
   "*destination_addresses": [
-    [
-      "Napa County, CA, USA",
-      "Washington, DC, USA"
-    ],
-    [
-      "Napa County2, CA, USA",
-      "Napa County, CA, USA"
-    ],
-    [
-      "Napa County3, CA, USA",
-      "Orange County, CA, USA"
-    ]
+    {
+      "original": "Napa County, CA, USA",
+      "new": "Washington, DC, USA"
+    },
+    {
+      "original": "Napa County2, CA, USA",
+      "new": "Napa County, CA, USA"
+    },
+    {
+      "original": "Napa County3, CA, USA",
+      "new": "Orange County, CA, USA"
+    }
   ],
   "*rows": [
     {
@@ -24,25 +24,25 @@
             "text": "3 hours 54 mins",
             "value": 14064
           },
-          "*status": [
-            "OK",
-            "NOK"
-          ]
+          "*status": {
+            "original": "OK",
+            "new": "NOK"
+          }
         },
         {
           "*distance": {
             "-text": "94.6 mi",
-            "*value": [
-              152193,
-              1521.93
-            ]
+            "*value": {
+              "original": 152193,
+              "new": 1521.93
+            }
           }
         }
       ],
-      "*status": [
-        "OK",
-        "NOK"
-      ]
+      "*status": {
+        "original": "OK",
+        "new": "NOK"
+      }
     }
   ]
 }

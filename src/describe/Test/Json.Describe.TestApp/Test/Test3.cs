@@ -65,5 +65,13 @@ namespace Json.Describe.TestApp.Test
             File.WriteAllText("processed-elements.json",result);
 
         }
+    
+        public void Test33()
+        {
+            JObject test = new JObject();
+            test.Add("name", "jona");
+
+            Console.WriteLine(test);
+        }
     }
 }
