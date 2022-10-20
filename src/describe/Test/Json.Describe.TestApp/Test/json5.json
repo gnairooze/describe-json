@@ -1,6 +1,19 @@
-﻿
-{
-  "names": ["John", "Luke"],
+﻿{
+  "names": [ "John", "Luke" ],
+  "names_b": [
+    "mark",
+    [
+      "james",
+      "matt"
+    ]
+  ],
+  "names_c": [
+    [
+      "adel",
+      "lee"
+    ],
+    "smith"
+  ],
   "age": 30,
   "cars": {
     "car1": "Ford",

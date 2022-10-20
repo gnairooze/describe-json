@@ -39,7 +39,9 @@ namespace Json.Describe.TestApp.Test
             {
                 Console.WriteLine(item);
             }
-            
+
+            var result = JsonConvert.SerializeObject(elements);
+            File.WriteAllText("processed-elements.json", result);
         }
 
         public void Test32()
